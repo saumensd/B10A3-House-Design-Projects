@@ -135,14 +135,15 @@
 
                 </div>
             </div>
-            <div>
+            <!-- 4 cards -->
+            <div class="pb-6 mb-6">
                 <div class="flex flex-col justify-center items-center">
                     <button class="btn rounded-full"> <i class="fa-solid fa-arrow-right"></i> How we works</button>
                     <h3>Our Works Process</h3>
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="grid lg:grid-cols-4 sm:grid-rows-4 mx-24 gap-3">
+                <div class="grid lg:grid-cols-4 lg:grid-rows-1 sm:grid-rows-4 mx-24 gap-3">
                     <div class="card bg-blue-200  shadow-xl">
                         <div class="card-body">
                             <img src="./assets/concept.png" width="40px" alt="">
@@ -173,12 +174,105 @@
                     </div>
                 </div>
             </div>
+            <!-- 4 cards ends -->
+        </div>
+
+        <div>
+            <div class="flex flex-col justify-center items-center">
+                <button class="btn rounded-full"> <i class="fa-solid fa-arrow-right"></i>Explore our Latest
+                    works</button>
+                <h3>Our Latest Portfolio</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- grid 5 cards -->
+            <div class="grid lg:grid-cols-5 sm:grid-cols-1  lg:grid-rows-2 sm:grid-row-5 mx-24 gap-x-4 ">
+                <div
+                    class="lg:col-span-3 sm:col-span-1 border-2 card bg-base-100 shadow-xl flex lg:flex-row sm:flex-col justify-around items-center mt-1 p-2">
+                    <img src="./assets/img1.png" alt="">
+                    <div>
+                        <h2 class="card-title">Commercial</h2>
+                        <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        <button class="btn">View Details<img class="bg-amber-400 p-0.5 rounded-full"
+                                src="./assets/right-up.png" width="25px" alt=""></button>
+                    </div>
+                </div>
+
+                <div
+                    class="lg:col-span-2 sm:col-span-1 border-2 card bg-base-100 shadow-xl flex flex-row justify-center  mt-1 p-2">
+                    <img class="max-w-full h-auto" src="./assets/img2.png" alt="">
+                </div>
+
+                <div class="col-span-1 border-2 card bg-base-100 shadow-xl flex flex-row justify-center   mt-1 p-2">
+                    <img src="./assets/img3.png" alt="">
+                </div>
+
+                <div
+                    class="lg:col-span-3 sm:col-span-1 border-2 card bg-base-100 shadow-xl flex lg:flex-row sm:flex-col justify-around items-center   mt-1 p-2">
+                    <img src="./assets/img4.png" alt="">
+                    <div>
+                        <h2 class="card-title">Commercial</h2>
+                        <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        <button class="btn">View Details<img class="bg-amber-400 p-0.5 rounded-full"
+                                src="./assets/right-up.png" width="25px" alt=""></button>
+                    </div>
+                </div>
+
+                <div class="col-span-1 border-2 card bg-base-100 shadow-xl flex flex-row justify-center   mt-1 p-2">
+                    <img src="./assets/img3.png" alt="">
+                </div>
+            </div>
+            <!-- grid 5 cards end -->
+        </div>
+
+
+        <div>
+            <div class="flex flex-col justify-center items-center">
+                <button class="btn rounded-full"> <i class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+                <h3>Let’s Discuss Next Project</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.</p>
+            </div>
+
+            <div class="grid justify-items-center gap-2">
+                <!-- <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:grid-rows-4 sm:grid-rows-6 justify-items-center"> -->
+
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-lg rounded-full" />
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-lg rounded-full" />
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-lg rounded-full" />
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-lg rounded-full" />
+                <textarea placeholder="Bio"
+                    class="lg:col-span-2 sm:col-span-1 textarea textarea-bordered textarea-lg w-full max-w-screen-xl"></textarea>
+                <button class="btn w-full max-w-screen-xl lg:col-span-2 sm:col-span-1 bg-amber-400">Send Mail <img
+                        class="bg-slate-500 p-0.5 rounded-full" src="./assets/right-up.png" width="25px"
+                        alt=""></button>
+            </div>
         </div>
 
     </main>
     <!-- Footer Section -->
-    <footer>
-
+    <footer class="mt-16">
+        <footer class="footer footer-center bg-black text-primary-content p-10">
+            <aside>
+                <a class="btn btn-ghost text-xl"><img class="bg-amber-400 p-0.5 rounded-full"
+                        src="./assets/right-up.png" width="25px" alt=""> Rinterio</a>
+                <p>
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.
+                </p>
+            </aside>
+            <nav>
+                <div class="grid sm:grid-cols-1 lg:grid-flow-col gap-4">
+                    <a href="">Home</a>
+                    <a href="">Services</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Blogs</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </nav>
+            <a class="btn bg-amber-400  hidden lg:flex rounded-full">Book Consult <img
+                    class="bg-slate-500  rounded-full" src="./assets/right-up.png" width="25px" alt=""></a>
+        </footer>
     </footer>
 </body>
 
